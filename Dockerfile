@@ -7,6 +7,6 @@ ENV HEALTH_PATH=/health
 
 COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
 
-EXPOSE 8080
+EXPOSE ${PORT}
 
 CMD ["haproxy", "-f", "/usr/local/etc/haproxy/haproxy.cfg", "-db"]

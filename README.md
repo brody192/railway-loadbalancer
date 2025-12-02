@@ -2,9 +2,11 @@
 
 A ready-to-deploy HAProxy load balancer template for Railway's private networking. Supports both IPv4 and IPv6.
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-LijPv?referralCode=Pd-ldD&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 ## Quick Start
 
-1. Deploy this template to Railway
+1. Click the deploy button above
 2. Set the required environment variables
 3. Point your public domain to this service
 
