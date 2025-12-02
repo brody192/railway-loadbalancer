@@ -1,7 +1,9 @@
 FROM haproxy:3.0-alpine
 
 ENV PORT=8080
-ENV BACKEND_URL=vad-service-2.railway.internal:8080
+ENV BACKEND_HOST=backend.railway.internal
+ENV BACKEND_PORT=8080
+ENV HEALTH_PATH=/health
 
 COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
 
